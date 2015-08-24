@@ -6,11 +6,11 @@
 
     <link rel="stylesheet" type="text/css" href="styles.css">
 
-     <link rel="shortcut icon" href="pics/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="pics/favicon.ico" type="image/x-icon">
 
-     <!-- link to jquery library -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
    </head>
@@ -21,8 +21,8 @@
         <nav>
           <ul>
           	<li class="navi"><a href="index.html">Home</a></li>
-            <li class="navi"><a href="index.html">About us</a></li>
-            <li class="navi"><a href="index.html">How to help</a></li>
+            <li class="navi"><a href="about.html">About us</a></li>
+            <li class="navi"><a href="contact.html">How to help</a></li>
           </ul>
         </nav>
       </header>
@@ -73,51 +73,6 @@
 </div>
 
 
- <script>
-
-// we start run function, when page downloaded
-// before element appears, we need to hide it, we use "slideDown"
- $(document).ready(function(col1){
-    $(".col-top").hide(function(){
-      $(".col-top").slideDown(1000);
-    });
-
- // the same, but for appearing we used "fadeIn"
-    $(".main").hide(function(){
-      $(".main").fadeIn(3000);
-    });
-
-    $(".col-1").hide(function(){
-      $(".col-1").fadeIn(3000);
-    });
-
-    $(".col-2").hide(function(){
-      $(".col-2").fadeIn(3000);
-    });
-
-
-    // we use effect "opacity" 
-
-     $("header").animate({
-        opacity: 0.7
-        }, 3000);
-
-    $("footer").animate({
-          opacity: 0.7
-        }, 3000);
-
-    // we call click event
-
-    $("button").click(function() {
-          alert("We have sent your information to IRS!!!!");
-        });
-});
-         
-   
-
-      
-    
-</script>
 </body>
 </html>
 
