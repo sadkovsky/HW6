@@ -123,6 +123,7 @@ footer {
     width: 100%;
     margin-left: none; 
     margin-bottom: 5px;
+    height: auto;
   }
 
   .main {
@@ -133,7 +134,7 @@ footer {
  
   .col.1 {
     margin-top: 5px;
-  }
+   }
 
   .sanitation_workers {
     width: 95%;
